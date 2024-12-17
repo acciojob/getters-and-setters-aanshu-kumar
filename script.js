@@ -1,10 +1,10 @@
 //complete this code
 class Person {
-	constructor(Myname,Myage){
-		this.name=Myname;
-		this.age=Myage;
+	constructor(name,age){
+		this.name=name;
+		this.age=age;
 	}
-	get name
+	get name()
 	{
 		return this.name;
 	}
@@ -16,14 +16,14 @@ class Person {
 
 class Student extends Person {
 	super();
-	study{
+	study(){
 		console.log(this.name+" is studying")
 	}
 }
 
 class Teacher extends Person {
 	super();
-	teach{
+	teach(){
 		cnosole.log(this.name+" is teaching");
 	}
 }
