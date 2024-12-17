@@ -4,7 +4,7 @@ class Person {
 		this.name=Myname;
 		this.age=Myage;
 	}
-	get name()
+	get name
 	{
 		return this.name;
 	}
@@ -16,14 +16,14 @@ class Person {
 
 class Student extends Person {
 	super();
-	function study(){
+	study{
 		console.log(this.name+" is studying")
 	}
 }
 
 class Teacher extends Person {
 	super();
-	function teach(){
+	teach{
 		cnosole.log(this.name+" is teaching");
 	}
 }
